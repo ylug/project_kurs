@@ -7,7 +7,7 @@ def read_json():
     """
     Функция открытия файла джисон
     """
-    info_json = os.path.join('operations.json')
+    info_json = os.path.join('..', 'utils', 'operations.json')
     with open(info_json, encoding='utf-8') as file:
         return json.load(file)
 

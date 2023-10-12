@@ -1,4 +1,4 @@
-from fun import *
+from utils.fun import *
 import datetime
 
 
